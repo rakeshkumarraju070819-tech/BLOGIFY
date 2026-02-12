@@ -13,6 +13,8 @@ const getAllPosts = (req, res) => {
     data: { posts }
   });
 };
+   
+
 
 const getPostById = (req, res) => {
   const { id } = req.params;
